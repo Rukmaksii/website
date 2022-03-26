@@ -1,5 +1,7 @@
 import * as React from "react";
 
+import styles from "./App.module.scss";
+
 export default class App extends React.Component<{},{}> {
 
 	constructor(props: {}) {
@@ -9,7 +11,7 @@ export default class App extends React.Component<{},{}> {
 
 	render () {
 		return (
-			<div>Hello, World!</div>
+			<div className={styles.app}>Hello, World!</div>
 		)	
 	}
 }
