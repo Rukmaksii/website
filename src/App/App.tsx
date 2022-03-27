@@ -1,4 +1,8 @@
-import * as React from "react";
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Layout from "./Layout/Layout";
+import Home from "./Home/Home";
 
 import styles from "./App.module.scss";
 
@@ -11,7 +15,16 @@ export default class App extends React.Component<{},{}> {
 
 	render () {
 		return (
-			<div className={styles.app}>Hello, World!</div>
+			<div className={styles.app}>
+				<BrowserRouter>
+					<Routes>
+					<Route path="/" element={<Layout />}>
+						<Route index element={<Home />} />
+						<Route path="*" element={<Home />} />	
+					</Route>
+					</Routes>
+				</BrowserRouter>
+			</div>
 		)	
 	}
 }

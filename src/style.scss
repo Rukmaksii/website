@@ -1,4 +1,6 @@
-* {
-	background-color: #323232;
-	color: #33ccff;
+@import "style/colors.scss";
+
+html {
+	background-color: $bg-color;
+	color: $light-blue;
 }
