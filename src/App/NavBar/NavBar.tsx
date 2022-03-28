@@ -29,7 +29,7 @@ export default class NavBar extends Component<IProps, IState> {
 						<li>
 							<a className={styles.download}>
 								<div></div>
-								<span>Download</span>
+								<span>Play now</span>
 								<div></div>
 							</a>
 						</li>

@@ -3,5 +3,15 @@
 
 .home {
 	padding-top: 4rem;
+	color: $lighter-blue;
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
 
+	& .title {
+		text-transform: uppercase;
+		transform: scale(120%);
+	
+	}
 }

@@ -3,3 +3,8 @@ $dark-bg: darken($bg-color, 10%);
 
 
 $light-blue: #1DB9D3;
+$lighter-blue: lighten($light-blue, 20%);
+$blue: darken($light-blue, 20%);
+$dark-blue: darken($light-blue, 20%);
+
+$neon-orange: #EF4E22;

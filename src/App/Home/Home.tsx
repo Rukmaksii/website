@@ -18,10 +18,9 @@ export default class Home extends Component<IProps, IState> {
 	render() {
 		return (
 			<div className={styles.home}>
-				{
-				[...Array(100)]
-					.map((_, i) => (<div key={i}>Hello, {i}</div>))
-				}
+				<header>
+<h1 className={styles.title}>Rukmaksii</h1>
+				</header>
 			</div>
 		)
 	}
