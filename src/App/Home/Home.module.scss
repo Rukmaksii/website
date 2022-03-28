@@ -2,16 +2,57 @@
 
 
 .home {
-	padding-top: 4rem;
-	color: $lighter-blue;
+	margin-top: 4rem;
 	display: flex;
-	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
 	align-items: center;
 	justify-content: center;
 
-	& .title {
-		text-transform: uppercase;
-		transform: scale(120%);
-	
+	& > .header {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		user-select: none;
+		z-index: 10;
+		justify-content: center;
+		align-items: center;
+
+
+		& > .banner {
+			z-index: -1;
+			max-width: 100%;
+			align-self: center;
+
+			& > img {
+				max-width: 100%;
+				filter: blur(3px);
+				opacity: 0.7;
+			}
+		}
+
+		& > .title {
+			z-index: 10;
+			text-transform: uppercase;
+			font-size: 4rem;
+			text-align: center;
+			transition: color .1s linear,
+			text-shadow .2s ease-in;
+			display: inline-block;
+			margin-top: -50%;
+
+			&:hover {
+				color: #eee;
+				text-shadow:
+				0 0 7px #fff,
+				0 0 10px #fff,
+				0 0 21px #fff,
+				0 0 42px #0fa,
+				0 0 82px #0ff,
+				0 0 92px #0ff,
+				0 0 102px #0ff,
+				0 0 151px #0ff;
+			}
+		}
 	}
 }

@@ -10,6 +10,7 @@
 	padding: .3rem;
 	background-color: lighten($bg-color, 5%);
 	user-select: none;
+	z-index: 1000;
 	
 	& ul {
 		width: 100%;
