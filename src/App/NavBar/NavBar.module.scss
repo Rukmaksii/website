@@ -2,11 +2,12 @@
 @import "../../style/colors.scss";
 
 .navbar {
-	font-size: 1.25rem;
+	font-size: 1.15rem;
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100vw; 
+	height: 2.5rem;
 	background-color: lighten($bg-color, 5%);
 	user-select: none;
 	z-index: 1000;
@@ -19,7 +20,9 @@
 		display: flex;
 		flex-direction: row;
 		list-style-type: none;
-		flex: 4;
+		flex: 6;
+		margin: 0;
+		align-items: center;
 
 		& li {
 			z-index: 10;
@@ -56,17 +59,20 @@
 	}
 
 	& > a.download {
+		margin: .3rem;
 		flex: 1;
 		cursor: pointer;
 		position: relative;
-		opacity: 0.7;
 		transition: opacity .1s ease-out;
 		display: flex;
 		justify-content: center;
 		text-align: center;
 		align-items: center;
+		background-color: $light-blue;
+		border-radius: 5px;
 
 		& > div {
+			display: none;
 			width: 6rem;
 			height: 2rem;
 			position: absolute;
@@ -94,7 +100,7 @@
 		&:hover { 
 
 			text-decoration: none;
-			opacity: 1;
+			background-color: darken($light-blue, 5%);
 
 			& > div {
 				transform: translate(-50%, -50%);
@@ -105,9 +111,6 @@
 
 		&:active {
 			opacity: 0.8;
-			& > div {
-				border-width: 0;
-			}
 		}
 	}
 }

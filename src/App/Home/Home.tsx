@@ -20,7 +20,7 @@ export default class Home extends Component<IProps, IState> {
 				<div className={styles.home}>
 					<div className={styles.header}>
 						<span className={styles.banner} >
-							<img src="/images/basic_play.png"/>
+							<img src="/images/banner.png"/>
 						</span>
 						<h1 className={styles.title}>
 							Rukmaksii
