@@ -19,23 +19,28 @@ export default class NavBar extends Component<IProps, IState> {
 	render() {
 		return (
 				<nav className={styles.navbar}>
-					<ul>
+					<ul className={styles.links}>
 						<li>
-							<Link to="/" >Home</Link>
+							<Link to="/"><img src="/images/logo.png" /></Link>
+						</li>
+						<li>
+							<Link to="/" >News</Link>
+						</li>
+						<li>
+							<Link to="/" >About The Game</Link>
 						</li>
 						<li>
 							<Link to="/" >About Us</Link>
 						</li>
-						<li>
-							<a className={styles.download}>
-								<div></div>
-								<span>Play now</span>
-								<div></div>
-							</a>
-						</li>
 					</ul>
-				</nav>
-			   )
+					<div className={styles.separator}></div>
+					<a className={styles.download}>
+						<div></div>
+						<span>Play now</span>
+						<div></div>
+					</a>
+					</nav>
+					)
 	}
 }
 

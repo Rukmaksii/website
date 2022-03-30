@@ -2,11 +2,12 @@ const path = require("path")
 const HtmlWebpackPlugin = require("html-webpack-plugin")
 const CopyPlugin = require("copy-webpack-plugin");
 const express = require('express')
+const webpack = require('webpack')
 
 module.exports = {
 	entry: "./src/index.tsx",
 	target: "web",
-	mode: "development",
+	mode: process.env.NODE_ENV,
 	output: {
 		path: path.join(__dirname, "dist"),
 		filename: "bundle.js"
@@ -48,6 +49,12 @@ module.exports = {
 					from: "public/images", to: "images"
 				}
 			]
+		}),
+		new webpack.ProvidePlugin({
+			process: "process/browser"
+		}),
+		new webpack.DefinePlugin({
+			"process.env.BASE_URL": JSON.stringify(process.env.NODE_ENV === 'production' ? "/website" : "/")
 		})
 	],
 

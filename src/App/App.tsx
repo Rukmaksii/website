@@ -14,9 +14,10 @@ export default class App extends React.Component<{},{}> {
 	}
 
 	render () {
+		console.log(process.env.BASE_URL)
 		return (
 			<div className={styles.app}>
-				<BrowserRouter>
+				<BrowserRouter basename={process.env.BASE_URL}>
 					<Routes>
 					<Route path="/" element={<Layout />}>
 						<Route index element={<Home />} />
