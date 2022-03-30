@@ -8,7 +8,7 @@
 		"build:env": "webpack --node-env=development",
 		"build:prod": "webpack --node-env=production",
 		"clean": "rm -rf ./dist/",
-		"predeploy": "npm run build",
+		"predeploy": "npm run build:prod",
 		"deploy": "gh-pages -d dist",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
