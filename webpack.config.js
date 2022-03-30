@@ -47,7 +47,14 @@ module.exports = {
 			patterns: [
 				{
 					from: "public/website/images", to: "images"
+				},
+				{
+					from: "src/fonts.css", to: ""
+				},
+				{
+					from: "src/Dense-Regular.otf", to: ""
 				}
+
 			]
 		}),
 		new webpack.ProvidePlugin({
