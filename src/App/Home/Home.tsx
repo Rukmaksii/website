@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 import styles from "./Home.module.scss";
 
@@ -19,12 +20,12 @@ export default class Home extends Component<IProps, IState> {
 		return (
 				<div className={styles.home}>
 					<div className={styles.header}>
-						<span className={styles.banner} >
-							<img src="/images/banner.png"/>
-						</span>
-						<h1 className={styles.title}>
-							Rukmaksii
-						</h1>
+						<div className={styles.title}>
+							<img src="/website/images/logo.png" />
+						</div>
+						<span>Play the next generation of MOBAs</span>
+						<span>Available soon on PC</span>
+						<Link to="/download">Get Rukmaksii</Link>
 					</div>
 				</div>
 			   )

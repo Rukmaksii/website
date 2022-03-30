@@ -21,7 +21,7 @@ export default class NavBar extends Component<IProps, IState> {
 				<nav className={styles.navbar}>
 					<ul className={styles.links}>
 						<li>
-							<Link to="/"><img src="/images/logo.png" /></Link>
+							<Link to="/"><img src="/website/images/logo.png" /></Link>
 						</li>
 						<li>
 							<Link to="/" >News</Link>

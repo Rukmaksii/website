@@ -2,55 +2,66 @@
 
 
 .home {
-	margin-top: 4rem;
 	display: flex;
-	margin-left: 0;
-	margin-right: 0;
-	align-items: center;
-	justify-content: center;
+	margin-top: 2.5rem;
 
 	& > .header {
-		width: 100%;
+		width: 100vw;
+		height: 25vw;
 		display: flex;
 		flex-direction: column;
 		user-select: none;
 		z-index: 10;
 		justify-content: center;
+
+		font-size: 1.5rem;
+
+		background-image: url("../../../public/website/images/banner.png"),
+		url("https://rukmaksii.githubpages.com/website/images/banner.png");
+		background-size: 100%;
+		background-repeat: no-repeat;
+
+		display: flex;
+
+		flex-direction: column;
+
 		align-items: center;
 
-
-		& > .banner {
-			z-index: -1;
-			width: 100%;
-			align-self: center;
-
+		& > div.title {
+			display: flex;
+			justify-content: center;
+			align-items: center;
 			& > img {
-				max-width: 100%;
+				max-width: 30%;
 			}
 		}
 
-		& > .title {
-			z-index: 10;
-			text-transform: uppercase;
-			font-size: 4rem;
-			text-align: center;
-			transition: color .1s linear,
-			text-shadow .2s ease-in;
-			display: inline-block;
-			margin-top: -50%;
+		& > span {
+			padding-top: .5rem;
+			display: block;
+		}
+
+		& > a {
+			margin: .3rem;
+			padding: .2rem .6rem;
+			text-decoration: none;
+			background-color: $light-blue;
+			border-radius: 5px;
+
+			&:visited {
+				color: inherit;
+			}
 
 			&:hover {
-				color: #eee;
-				text-shadow:
-				0 0 7px #fff,
-				0 0 10px #fff,
-				0 0 21px #fff,
-				0 0 42px #0fa,
-				0 0 82px #0ff,
-				0 0 92px #0ff,
-				0 0 102px #0ff,
-				0 0 151px #0ff;
+				background-color: darken($light-blue, 5%);
 			}
+
+			&:active {
+				color: $light-blue;
+				background-color: white;
+			}
+
 		}
 	}
 }
+
