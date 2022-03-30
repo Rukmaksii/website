@@ -27,6 +27,22 @@ export default class Home extends Component<IProps, IState> {
 						<span>Available soon on PC</span>
 						<Link to="/download">Get Rukmaksii</Link>
 					</div>
+					<div className={styles.separator}></div>
+					<div className={styles.download}>
+						<span>Download Rukmaksii</span>
+						<div>
+							<span>Windaube</span>
+							<span>Linux</span>
+							<span>Mac OS</span>
+						</div>
+					</div>
+					<div className={styles.about}>
+						<span>About Rukmaksii</span>
+						<div>
+							<img src="/website/images/objective.png" />
+							<img src="/website/images/hud.png" />
+						</div>
+					</div>
 				</div>
 			   )
 	}
