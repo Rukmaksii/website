@@ -30,7 +30,7 @@ export default class NavBar extends Component<IProps, IState> {
 							<Link to="/" >About The Game</Link>
 						</li>
 						<li>
-							<Link to="/" >About Us</Link>
+							<Link to="/aboutus" >About Us</Link>
 						</li>
 					</ul>
 					<div className={styles.separator}></div>
