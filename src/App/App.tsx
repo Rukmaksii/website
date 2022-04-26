@@ -10,10 +10,28 @@ import styles from "./App.module.scss";
 
 const data: Person[] = [
 	{
+		Name: "Romain Le Miere",
+		Description: "",
+		Role: "Chef de projet",
+		ImagePath: "../../public/website/images/portraits/romain-le-miere.png"
+	},
+	{
+		Name: "Alban Naulin",
+		Description: "",
+		Role: "",
+		ImagePath: "../../public/website/images/portraits/alban-naulin.png"
+	},
+	{
 		Name: "Lucas Tilly",
-		Description: "Directeur 3D Insh",
+		Description: "",
 		Role: "Directeur 3D",
-		ImagePath: ""
+		ImagePath: "../../public/website/images/portraits/lucas-tilly.png"
+	},
+	{
+		Name: "Emmanuel Vouillon",
+		Description: "",
+		Role: "",
+		ImagePath: "../../public/website/images/portraits/emmanuel-vouillon.png"
 	}
 ]
 
