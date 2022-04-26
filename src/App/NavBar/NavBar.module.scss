@@ -58,7 +58,8 @@
 		}
 	}
 
-	& > a.download {
+	& > .download {
+		all: unset;
 		margin: .3rem;
 		flex: 1;
 		cursor: pointer;

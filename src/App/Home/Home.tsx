@@ -23,9 +23,9 @@ export default class Home extends Component<IProps, IState> {
 						<div className={styles.title}>
 							<img src="/website/images/logo.png" />
 						</div>
-						<span>Play the next generation of MOBAs</span>
+						<span id="downloadButton">Play the next generation of MOBAs</span>
 						<span>Available soon on PC</span>
-						<Link to="/download">Get Rukmaksii</Link>
+						<a href="https://github.com/Rukmaksii/Rukmaksii" >Get Rukmaksii</a>
 					</div>
 					<div className={styles.separator}></div>
 					<div className={styles.download}>

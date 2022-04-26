@@ -34,7 +34,7 @@ export default class NavBar extends Component<IProps, IState> {
 						</li>
 					</ul>
 					<div className={styles.separator}></div>
-					<a className={styles.download}>
+					<a href="#downloadButton" className={styles.download}>
 						<div></div>
 						<span>Play now</span>
 						<div></div>
