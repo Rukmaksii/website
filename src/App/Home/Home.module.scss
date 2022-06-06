@@ -96,10 +96,14 @@
 			align-items: center;
 			flex: 1;
 
-			& > span {
+			& > a {
 				margin: 5px;
 				padding: 1rem 3rem;
 				background-color: $light-blue;
+
+				&:visited {
+					color: inherit;
+				}
 			}
 		}
 	}

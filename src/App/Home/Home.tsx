@@ -31,9 +31,8 @@ export default class Home extends Component<IProps, IState> {
 					<div className={styles.download}>
 						<span>Download Rukmaksii</span>
 						<div>
-							<span>Windaube</span>
-							<span>Linux</span>
-							<span>Mac OS</span>
+							<a href="">Windaube</a>
+							<a href="">Mac OS</a>
 						</div>
 					</div>
 					<div className={styles.about}>

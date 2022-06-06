@@ -34,11 +34,11 @@ export default class NavBar extends Component<IProps, IState> {
 						</li>
 					</ul>
 					<div className={styles.separator}></div>
-					<a href="#downloadButton" className={styles.download}>
+					<Link to="/#downloadButton" className={styles.download}>
 						<div></div>
 						<span>Play now</span>
 						<div></div>
-					</a>
+					</Link>
 					</nav>
 					)
 	}
