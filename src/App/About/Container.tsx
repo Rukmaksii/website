@@ -14,16 +14,29 @@ const Container = (props: IProps) => {
 
 	const [activated, setActivated] = useState(false);
 	const {ImagePath, Name, Role, Description} = props.Person;
+
+	const classes = [styles.container]
+	if(activated)
+		classes.push(styles.active)
+
+	
+
 	return (
-		<div className={styles.container} 
-			onMouseEnter={() => setActivated(true)}
-			onMouseLeave={() => setActivated(false)}
+		<div className={classes.join(" ")} 
 			>
-			<span className={styles.image}><img src={ImagePath} /></span>
+			<span className={styles.image}
+				onMouseEnter={() => setActivated(true)}
+				onMouseLeave={() => setActivated(false)}
+			>
+				<img src={ImagePath} />
+				<h4>{Name}</h4>
+			</span>
+			<span>
 			{
-				activated ? (<span>{Description}</span>) :
-				(<><h4>{Name}</h4><span>{Role}</span></>)
+				activated ? Description :
+				Role
 			}
+			</span>
 		</div>
 	)
 }
