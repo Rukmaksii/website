@@ -47,8 +47,10 @@ export default class Home extends Component<IProps, IState> {
 						<span>Download Rukmaksii</span>
 						<div>
 							<a href="">First report</a>
-							<a href="">Second report OS</a>
+							<a href="">Second report</a>
 							<a href="">Project report</a>
+							<a href="">Installation manual</a>
+							<a href="">User's manual</a>
 						</div>
 					</div>
 				</div>
