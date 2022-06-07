@@ -39,18 +39,18 @@ export default class Home extends Component<IProps, IState> {
 					<div className={styles.download}>
 						<span>Download Rukmaksii</span>
 						<div>
-							<a href="">Windaube</a>
-							<a href="">Mac OS</a>
+							<a href="https://github.com/Rukmaksii/Rukmaksii/releases/latest/download/Rukmaksii.exe">Windaube</a>
+							<a href="https://github.com/Rukmaksii/Rukmaksii/releases/latest/download/Rukmaksii-for-mac.zip">Mac OS</a>
 						</div>
 					</div>
 					<div className={styles.infos}>
 						<span>Download Rukmaksii</span>
 						<div>
-							<a href="">First report</a>
-							<a href="">Second report</a>
-							<a href="">Project report</a>
-							<a href="">Installation manual</a>
-							<a href="">User's manual</a>
+							<a href="https://github.com/Rukmaksii/website/blob/develop/public/website/resources/Defense1.pdf">First report</a>
+							<a href="https://github.com/Rukmaksii/website/blob/develop/public/website/resources/Defense2.pdf">Second report</a>
+							<a href="https://github.com/Rukmaksii/website/blob/develop/public/website/resources/Report.pdf">Project report</a>
+							<a href="https://github.com/Rukmaksii/website/blob/develop/public/website/resources/InstallationManual.pdf">Installation manual</a>
+							<a href="https://github.com/Rukmaksii/website/blob/develop/public/website/resources/UsersManual.pdf">User's manual</a>
 						</div>
 					</div>
 				</div>
