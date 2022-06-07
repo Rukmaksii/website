@@ -18,18 +18,18 @@ const data: Person[] = [
 	{
 		Name: "Alban Naulin",
 		Description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim",
-		Role: "AI ",
+		Role: "AI manager",
 		ImagePath: "https://photos.cri.epita.fr/alban.naulin"
 	},
 	{
 		Name: "Lucas Tilly",
-		Description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim",
+		Description: "3D manager of the project, I brought all of the 3D assets in our game and implemented various key features like the item wheel, the animations, the ability tree and many others! I Hope you will enjoy our game!",
 		Role: "3D Manager",
 		ImagePath: "https://photos.cri.epita.fr/lucas.tilly"
 	},
 	{
 		Name: "Emmanuel Vouillon",
-		Description: "The main designer of the project. Master of the menus but alos the man behind the HUD, the objectives, some items and many other core features of the game. Versitality is key!",
+		Description: "The main designer of the project. Master of the menus but also the man behind the HUD, the objectives, some items and many other core features of the game. Versitality is key!",
 		Role: "Project designer",
 		ImagePath: "https://photos.cri.epita.fr/emmanuel.vouillon"
 	}
