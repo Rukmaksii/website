@@ -32,8 +32,8 @@ export default class Home extends Component<IProps, IState> {
 						<span>About Rukmaksii</span>
 						<span>Our project is a video game, more precisely a MOBA (Multiplayer Online Battle Arena) with a TPS (Third Person Shooter) perspective. A poignant experience centered on 3vs3 or 2vs2 matches to fight for the control of objectives. Strategy, good positioning and accuracy are key to success in this very quick pace game.</span>
 						<div>
-							<img src="/website/images/objective.png" />
-							<img src="/website/images/hud.png" />
+							<img src="/website/images/screenshot1.png" />
+							<img src="/website/images/screenshot2.png" />
 						</div>
 					</div>
 					<div className={styles.download}>
