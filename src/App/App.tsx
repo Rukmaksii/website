@@ -11,13 +11,13 @@ import styles from "./App.module.scss";
 const data: Person[] = [
 	{
 		Name: "Romain Le Miere",
-		Description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim",
+		Description: "I led the project and was manager for the whole git workflow. Being a team manager taught me a lot during this project and it was a great experience.",
 		Role: "Team Manager",
 		ImagePath: "https://photos.cri.epita.fr/romain.le-miere"
 	},
 	{
 		Name: "Alban Naulin",
-		Description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim",
+		Description: "took care of implementing a realistic monster that will help you or not in your game. Texture designer: made some awesome texture for shields and monster Sound designer", 
 		Role: "AI manager",
 		ImagePath: "https://photos.cri.epita.fr/alban.naulin"
 	},
